@@ -1,0 +1,132 @@
+.UpperBlock{ width: 100%;
+    height: 10%;
+    text-align: center;
+    background-color: rgb(160, 101, 228);
+    border-radius: 15px;
+    padding: 2%;
+    margin: 1%;
+    
+}
+.upperSmallBlock{
+    margin-top: 2%;
+    padding-bottom: none;
+    width: 50vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.TitleStyle{text-align: center;
+    width: 20vw;
+    height: 10vh;
+    
+    
+}
+label{
+    font-size: 1.2rem;
+    color: white;
+}
+.BlockStyle{
+    width: 70%;
+    height:40% ;
+    padding: 1%;
+    margin: 2%;
+    border-radius: 5px;
+    
+}
+.AddExpence{
+    background-color: rgb(8, 2, 44);
+    border: none;
+    width: 15%;
+    height: 4em;
+    border-radius: 15px;
+    position: relative;
+    left: 20em;
+    bottom: 4em;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.CancelButtonStyle{
+     background-color: rgb(8, 2, 44);
+    border: none;
+    width: 15%;
+    height: 4em;
+    border-radius: 15px;
+    position: relative;
+    left: 20em;
+    bottom: 4em;
+    color: white;
+    margin-right: 2px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.AddNewExpencesButtonStyle{
+    background-color: rgb(8, 2, 44);
+    border: none;
+    width: 40%;
+    height: 4em;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+
+}
+
+@media(max-width:900px){
+    .UpperBlock{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        background-color: rgb(160, 101, 228);
+        border-radius: 15px;
+        padding: 4%;
+        margin: 0%;   
+    }
+    .upperSmallBlock{
+        width: 100%;
+        display: grid ;
+        grid-template-columns: 1fr;
+    }
+    .TitleStyle{
+       
+    width: 70%;
+    height: 2em;
+    margin-left: 2%;
+        
+        
+        
+    }
+    label{
+        font-size: 1em;
+    color: white;
+        
+    }
+    .BlockStyle{
+        width: 70%;
+    height:40% ;
+    padding: 1%;
+    margin-left: 1%;
+    border-radius: 5px;    
+        
+    }
+    .AddExpence {
+        background-color:rgb(8, 2, 44);
+    border: none;
+    width: 35%;
+    height: 10%;
+    border-radius: 15px;
+    position:static;
+    left: 0em;
+    bottom: 0em;
+     
+    }
+    .CancelButtonStyle{ background-color:rgb(8, 2, 44);
+        border: none;
+        width: 35%;
+        height: 10%;
+        border-radius: 15px;
+        position:static;
+        left: 0em;
+        bottom: 0em;
+
+    }
+}
+

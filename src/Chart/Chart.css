@@ -1,0 +1,13 @@
+.Chart{
+    width: 83%;
+    height: 20vh;
+    background-color: #f8dfff;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding:1%;
+    margin-bottom:1% ;
+    margin-left: 6%;
+    
+}

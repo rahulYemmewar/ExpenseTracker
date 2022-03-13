@@ -1,0 +1,27 @@
+.dateStyle{width: 60%;
+    border: 2px solid white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1.1rem;
+    color: white;
+    background-color: rgb(34, 33, 33);
+    padding: 9.5%;
+    margin: 2%;
+    position: relative;
+    bottom: 0.6em;
+}
+
+@media(max-width:950px){
+    .dateStyle{ width: 100%;
+        border: 2px solid white;
+        border-radius: 15px;
+        text-align: center;
+        color: white;
+        background-color: rgb(34, 33, 33);
+        padding: 9.5%;
+        margin: 2%;
+        font-size: 0.7;
+        position: static;
+        bottom: 0%;
+}
+}
